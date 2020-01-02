@@ -18,7 +18,7 @@ public class UserController {
 
     @RequestMapping("/list")
     public List<User> list(){
-        System.out.println(userDao.list()+"aaaa");
+        System.out.println(userDao.list()+"aaaassss");
         return userDao.list();
     }
 
