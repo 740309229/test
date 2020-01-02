@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 约束文件（代码提示）
+  1：联网
+  2：没联网
+               需要关联xsd文件（在window-prefreences-xmlcatalog中设置）
+            -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		                   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--告诉Spring帮我管理对象  -->
+     <bean id="helloWord" class="com.manye.www.JUnit4Test.HelloWord">
+     <!--注入普通数据  name对应DAO中的字段名 value表示要注入的普通数据-->
+     <property name="name" value="满爷"/>
+     <property name="age"  value="17"/>
+     <!--注入对象数据  
+     <property name="age"  ref="bean中的id"/>
+     -->
+     </bean>
+</beans>
