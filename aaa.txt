@@ -1,7 +1,4 @@
 github
-<<<<<<< HEAD
 github
 github
-=======
 githubgithubgithubgithub
->>>>>>> c36884d9034c1a910a5bbd36d384fa8673240d4c
